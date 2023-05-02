@@ -23,4 +23,3 @@ numpy
 youtube-search
 youtube-search-python
 yt-dlp
-pip install --upgrade pip
