@@ -7,7 +7,7 @@ from AarohiX import app
 def ul(_, message):
     reply = message.reply_to_message
     if reply.media:
-        i = message.reply("🌹ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ... By Aarohi Music🌹")
+        i = message.reply("🌹ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...ʙʏ ᴀᴀʀᴏʜɪ ᴍᴜsɪᴄ🌹")
         path = reply.download()
         fk = upload_file(path)
         for x in fk:
