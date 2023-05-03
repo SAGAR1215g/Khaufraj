@@ -7,10 +7,10 @@ from AarohiX import app
 def ul(_, message):
     reply = message.reply_to_message
     if reply.media:
-        i = message.reply("Downloading....")
+        i = message.reply("🌹ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ... By Aarohi Music🌹")
         path = reply.download()
         fk = upload_file(path)
         for x in fk:
             url = "https://telegra.ph" + x
 
-        i.edit(f'Your telegraph [link]({url})')
+        i.edit(f'Your telegraph [Copy This Link]({url})')
