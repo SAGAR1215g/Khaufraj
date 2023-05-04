@@ -1,8 +1,6 @@
 from datetime import datetime
 
 from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-
 from pyrogram.types import Message
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
@@ -33,14 +31,6 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
         _["ping_2"].format(
-            resp, BOT_NAME, UP, RAM, CPU, DISK, pytgping
-        ),
-        reply_markup=InlineKeyboardMarkup( 
-            [
-                [
-                    InlineKeyboardButton(
-                        text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
-                    ),
-                ],    
-            ]
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
         )
+    )
