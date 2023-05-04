@@ -3,9 +3,8 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-import config
 from pyrogram.types import Message
-from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
+from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL, SUPPORT_CHAT
 from strings import get_command
 from AarohiX import app
 from AarohiX.core.call import Aarohi
