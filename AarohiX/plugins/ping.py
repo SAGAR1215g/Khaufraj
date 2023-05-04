@@ -48,4 +48,3 @@ reply_markup=InlineKeyboardMarkup(
                 ],
             ]
         ),
-    )
