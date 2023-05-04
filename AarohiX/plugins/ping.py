@@ -1,6 +1,9 @@
 from datetime import datetime
 
 from pyrogram import filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+
+import config
 from pyrogram.types import Message
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
@@ -33,4 +36,16 @@ async def ping_com(client, message: Message, _):
         _["ping_2"].format(
             resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
         )
+    )
+reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("❄ sᴜᴘᴘᴏʀᴛ ❄", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton(
+                        "✨ sᴏᴜʀᴄᴇ ✨",
+                        url="https://github.com/AnonymousX1025/FallenMusic",
+                    ),
+                ],
+            ]
+        ),
     )
