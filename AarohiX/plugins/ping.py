@@ -43,4 +43,4 @@ async def ping_com(client, message: Message, _):
                     )
                 ]    
             ]
-        )
+        ),
