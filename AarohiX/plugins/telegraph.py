@@ -3,7 +3,7 @@ from pyrogram import filters
 from AarohiX import app
 
 
-@app.on_message(filters.command('tgm','aarohiXdil'))
+@app.on_message(filters.command('tgm'))
 def ul(_, message):
     reply = message.reply_to_message
     if reply.media:
