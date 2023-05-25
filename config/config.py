@@ -7,14 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "21944949"))
+API_HASH = getenv("API_HASH", "d1abedd1624be80538e5d6da730f7963")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001898745590"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ɪsʜᴜ ✘ ᴅɪʟ˼")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5382538422").split()))
 
