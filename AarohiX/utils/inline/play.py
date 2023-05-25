@@ -46,15 +46,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=config.SUPPORT_GROUP
+                text="sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]", url=config.SUPPORT_GROUP
             ),
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
+                text="ᴅɪʟ[❣️]", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
-                text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Dil_ki_Ishu",
+                text="ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]", url=f"https://t.me/Dil_ki_Ishu",
             ),
         ],
         [
@@ -104,15 +104,15 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
+                text="ᴅɪʟ[❣️]", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Dil_ki_Ishu",
+                text="ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]", url=f"https://t.me/Dil_ki_Ishu",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️] 🥀", url=config.SUPPORT_GROUP
+                text="sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
@@ -145,15 +145,15 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=config.SUPPORT_GROUP
+                text="sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]", url=config.SUPPORT_GROUP
             ),
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
+                text="ᴅɪʟ[❣️]", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
+                text="ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -184,15 +184,15 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
+                text="ᴅɪʟ[❣️]", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Dil_ki_Ishu",
+                text="ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]", url=f"https://t.me/Dil_ki_Ishu",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=config.SUPPORT_GROUP
+                text="sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
@@ -336,15 +336,15 @@ def queue_markup(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=config.SUPPORT_GROUP
+                text="sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]", url=config.SUPPORT_GROUP
             )
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
+                text="ᴅɪʟ[❣️]", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Dil_ki_Ishu",
+                text="ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]", url=f"https://t.me/Dil_ki_Ishu",
             ),
         ],
         [
