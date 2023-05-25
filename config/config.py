@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SAGAR1215g/IshuXDil"
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LOVE_FEELINGS_WILL")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/LOVE_FEELINGS_WILL")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://te.legra.ph/file/0d873bf61907b7813ff7e.mp4")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://te.legra.ph/file/0d873bf61907b7813ff7e.mp4")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
  
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION","BQBZuOrkgoJA28SB1zWI7_umUMxDOoi8714wcBDiMMoZkaZZlAbVMZnJmPXXnpsbUub-KmVw5GN_F8ooh-gkPIcdkg7f0alYZLkjTnGiueshrnoS2okZVKhJlkM5Y4NgDweZUC__W4X9X9KumeQx2di31LCB58ZZ43x-mArVr_UaCuD0Uo2Zy9AXK0n76wzfdm3uOiBJyC3HKH3bo_BL4Vmmh4XSHLtAAvm7AmOQIFCiMiagd6IkoqLpjloYflJRqvFQh4xR3OqU57_2xjpNyE7j2t3MQRi8De5FWM47cyvYxZebKFN9_zt8_Fp9Mfhdr2XPQE_MQgWQXeF7KMo5ra2FAAAAAVJ5Or4A")
+STRING1 = getenv("STRING_SESSION",  None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -76,34 +76,34 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/0c373d33859cd378dcafe.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/a70c01f7564e558b7af0d.png",
+    "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/e68f585a0a2e4e5dc1164.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/4a7c28726502e24ea0fe0.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/810f874873e1565cf5732.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/16d7dd76f4ce8b8b01fdf.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/53f1a295e172d39eaa39d.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/5d90c3bc7f0d229194a9f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/5d90c3bc7f0d229194a9f.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/5d90c3bc7f0d229194a9f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
 
 def time_to_seconds(time):
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/0c373d33859cd378dcafe.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/ac786e3464ecf452acf6d.jpg"
