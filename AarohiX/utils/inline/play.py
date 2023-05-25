@@ -51,7 +51,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=user_id=OWNER",
+                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
                 text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Dil_ki_Ishu",
@@ -104,7 +104,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=user_id=OWNER",
+                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
                 text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Dil_ki_Ishu",
@@ -150,7 +150,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=user_id=OWNER",
+                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
                 text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
@@ -184,7 +184,7 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=user_id=OWNER",
+                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
                 text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Dil_ki_Ishu",
@@ -341,7 +341,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=user_id=OWNER",
+                text="💝ᴅɪʟ[❣️]💝", url=f"https://t.me/Ishu_ka_Dil",
             ),
            InlineKeyboardButton(
                 text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Dil_ki_Ishu",
