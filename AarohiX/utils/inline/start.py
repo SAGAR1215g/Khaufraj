@@ -25,14 +25,14 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥰 ғᴇᴇʟɪɴɢs 🥰", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+                text="🥰 ғᴇᴇʟɪɴɢs 🥰", url=f"https://t.me/dil_ki_duniya"),
             InlineKeyboardButton(
                 text="🥰 ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️] 🥰", url=f"https://t.me/Dil_ki_Ishu"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥰ᴅɪʟ[❣️]🥰.", user_id=OWNER),
+                text="🥰ᴅɪʟ[❣️]🥰", user_id=OWNER),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]🥰", url=config.SUPPORT_GROUP
             ),
@@ -56,7 +56,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥰 ғᴇᴇʟɪɴɢs 🥰", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+                text="🥰 ғᴇᴇʟɪɴɢs 🥰", url=f"https://t.me/dil_ki_duniya"),
             InlineKeyboardButton(
                 text="🥰 ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️] 🥰", url=f"https://t.me/Dil_ki_Ishu"
             ),
@@ -69,7 +69,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                    text="🥰 ᴏᴡɴᴇʀ 🥰", url=f"https://t.me/HONEY_SINGH_121"
+                    text="🥰 ᴏᴡɴᴇʀ 🥰", url=f"https://t.me/Dil_ki_Ishu"
                 ),
         ],
      ]
